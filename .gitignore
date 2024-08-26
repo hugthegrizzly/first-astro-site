@@ -1,3 +1,6 @@
+# astro homepage reference
+src/astro-index.astro
+
 # build output
 dist/
 

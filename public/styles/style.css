@@ -10,11 +10,13 @@ body {
 
 header {
     width: 100%;
+    display: block;
+    height: 23%;
 }
 
 .banner {
-    background-image: url("public\images\banner.png");
-    height: 20%;
+    background-image: url(/images/banner.png);
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,7 +55,7 @@ header {
 .container {
     box-sizing: border-box;
     overflow: hidden;
-    padding: 30px 6%;
+    padding: 76px 6%;
 }
 
 .container a:hover{
@@ -190,7 +192,7 @@ footer p {
     border-radius: 4px;
     border: none;
     outline: none;
-    background-image: url('public\images\icons8-search.svg');
+    background-image: url('../../public/images/icons8-search.svg');
     background-position: 99%;
     background-size: 20px;
     background-repeat: no-repeat;
@@ -320,11 +322,11 @@ td {
 @font-face {
     font-family: Poppins;
     font-weight: normal;
-    src: url(public\fonts\Poppins-Regular.ttf);
+    src: url(/fonts/Poppins-Regular.ttf);
 }
 
 @font-face {
     font-family: Poppins;
     font-weight: bold;
-    src: url(public\fonts\Poppins-SemiBold.ttf);
+    src: url(/fonts/Poppins-SemiBold.ttf);
 }
